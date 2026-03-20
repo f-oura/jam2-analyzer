@@ -9,6 +9,7 @@ jam2-code/Makefile
 jam2-code/jam2/Makefile
 jam2-code/bin/
 jam2-code/lib/
+jam2-code/
 deps/
 phase.dat.gz
 *.root
