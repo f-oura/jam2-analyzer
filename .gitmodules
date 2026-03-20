@@ -1,0 +1,3 @@
+[submodule "jam2-code"]
+	path = jam2-code
+	url = https://gitlab.com/transportmodel/jam2.git
