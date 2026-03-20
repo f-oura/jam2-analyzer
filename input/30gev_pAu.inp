@@ -1,0 +1,33 @@
+Main:numberOfEvents = 100
+Random:setSeed = on
+Random:seed = 12345
+
+# Beam and Target Settings
+Beams:beamA = p+
+Beams:beamB = 197Au
+Beams:bmax = 0.0
+
+# Energy Setting (choose one)
+Beams:pLab = 30.0
+
+# Box Settings (Optimized for 30GeV p+Au)
+Cascade:optInitializeCellParameters = 0
+Cascade:nxCell = 30
+Cascade:nyCell = 30
+Cascade:nzCell = 30
+Cascade:dxCell = 3.0
+Cascade:dyCell = 3.0
+Cascade:dzCell = 3.0
+# Disable boundary checks
+Cascade:boxBoundary = 0
+Cascade:box = 0
+
+# Light Cluster Formation (Deuteron, Triton, Alpha, etc.)
+Cascade:nuclearClusterFormation = on
+# Default Coalescence Parameters:
+Cascade:nuclearClusterR = 3.0  # fm
+Cascade:nuclearClusterP = 0.3  # GeV/c
+
+# Analysis Settings
+Analysis:outputFreq = 10
+Analysis:outPutPhaseSpace = off
